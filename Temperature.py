@@ -7,3 +7,6 @@ def convert (value, unit) :
         print("tidak ada unit yang sesuai")
         
 value = int(input("Masukkan nilai suhu: "))
+unit = input("Masukkan unit suhu (C/F): ")
+result = convert(value, unit)
+print(f"Hasil konversi: {result}")
